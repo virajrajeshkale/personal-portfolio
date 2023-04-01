@@ -142,6 +142,20 @@ html
     position: relative;
 }
 
+
+
+  /* loader */
+
+  #loading
+  {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-image: url("loading.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
 .nav_logo
 {  
     margin-left: 10rem;
