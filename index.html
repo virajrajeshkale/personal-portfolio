@@ -12,8 +12,9 @@
     <link rel="stylesheet" href="style1.css">
     <link rel="icon" type="image/x-icon" href="favicon.png">
 </head>
-<body>
-    <span class="loader"></span>
+<body onload="myfunction()">
+    <div id="loading"></div>
+    <!-- <span class="loader"></span> -->
     <header class="header">
         <div class="social">
             <ul class="icon">
@@ -168,5 +169,13 @@
 
 
     <script src="script.js"></script>
+           <script>
+
+        var preloader = document.getElementById("loading");
+        function myfunction(){
+            preloader.style.display = "none";
+        }
+
+    </script>
 </body>
 </html>
