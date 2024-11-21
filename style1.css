@@ -575,10 +575,18 @@ html
     justify-content: space-between;
 }
 
+.project_Container{
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create exactly two columns */
+    gap: 30px;
+}
+
 .project_box{
     margin-left: auto;
     margin-right: auto;
-    width: 550px;
+    /* width: 450px; */
+    margin-bottom: 20px;
      
 }
 .box_border h2{
@@ -934,6 +942,22 @@ html
         height: 1px;
         margin-left: 20px;
         background-color: #97a39f;
+    }
+
+
+
+    .project_Container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); /* Create exactly two columns */
+        gap: 30px;
+    }
+    
+    .project_box{
+        margin-left: auto;
+        margin-right: auto;
+        /* width: 450px; */
+        margin-bottom: 20px;
+         
     }
 
 
